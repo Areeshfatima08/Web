@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lab Task1</title>
+    <link rel="stylesheet" href="practice.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <section id="home">
+        <header>
+            <div class="container-fl">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</li></a>
+                        <li><a href="p2.html">About</li></a>
+                        <li><a href="#cards">Catagories</li></a>
+                        <li><a href="#contacts">Contacts</li></a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="p1">
+                <p><b>CRAFTING WOOD INTO
+                        <br>BEAUTY</b>
+                </p>
+            </div>
+            <div class="b1">
+                <a href="#crousel"><button class="hb1"> More!</button></a>
+            </div>
+        </main>
+
+    </section>
+    <section id="about">
+        <div class="heading text-center p-5">
+            <p class="hp1">Turning Pintrest into reality</p>
+        </div>
+        <div class="container d-flex justify-content-start mb-5">
+            <div class="card" style="width: 18rem;">
+                <img src="mid-century-modern-living-room-interior-design-with-monstera-tree (1).jpg"
+                    class="card-img-top" alt="...">
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Our Store contains</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <!-- <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a> -->
+                </div>
+            </div>
+        </div>
+        <!-- <div class="heading text-center p-5">
+            <p class="hp1">Turning Pintrest into reality</p>
+        </div> -->
+        <div class="container d-flex justify-content-end  ">
+            <div class="card" style="width: 18rem;">
+                <img src="mid-century-modern-living-room-interior-design-with-monstera-tree.jpg" class="card-img-top"
+                    alt="...">
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Our Store contains</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <!-- <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="crousel">
+        <div id="customCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="chic-modern-luxury-aesthetics-style-living-room-blue-tone.jpg" class="d-block w-100"
+                        alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="sofa.jpg" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="interior-living-room-design-scandinavian-style-warm-tone.jpg" class="d-block w-100"
+                        alt="Slide 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#customCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#customCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="cards">
+        <div class="cp1">
+            <p class="cp2">Our Catagories</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="empty-modern-room-with-furniture (2).jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="interior-living-room-design-scandinavian-style-warm-tone.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="mid-century-modern-living-room-interior-design-with-monstera-tree (1).jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacts">
+        <footer class="bg-body-tertiary text-center">
+            <div class="container p-4 pb-0">
+                <section class="mb-4">
+                    <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #3b5998;"
+                        href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+                    <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #55acee;"
+                        href="#!" role="button"><i class="fab fa-twitter"></i></a>
+                    <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #dd4b39;"
+                        href="#!" role="button"><i class="fab fa-google"></i></a>
+                    <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #ac2bac;"
+                        href="#!" role="button"><i class="fab fa-instagram"></i></a>
+                    <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
+                        href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+                    <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #333333;"
+                        href="#!" role="button"><i class="fab fa-github"></i></a>
+                </section>
+            </div>
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2020 Copyright:
+                <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+        </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
